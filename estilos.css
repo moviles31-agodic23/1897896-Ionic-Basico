@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+      padding-top: 0px;
+      padding-bottom: 0px;
+    box-sizing: border-box;
+
+}
+.cabecera{
+    align-items: center;
+    height: 40vh;
+    position: relative;
+    width: 100%;
+    padding: top 150px;
+    padding-bottom: 100px;
+    background: url(fondo.png), #07a3be;
+    background: url(fondo.png), -webkit-gradient(linear, right top, left top, from(#07a3be), to(#06af77));
+    background: url(fondo.png), linear-gradient(to left, #07a3be, #06af77)
+}
+
+input{
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    margin-left: 75px;
+    border-radius: 25px;
+    border: none;
+    padding: 5px;
+    background-color:rgb(230, 224, 255);
+    
+}
+.titulo_ticket {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.contenedor{
+    position: absolute;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button{
+    background-color: rgb(76, 50, 172);
+    color: aliceblue;
+    border-radius:25px;
+    border: none;
+    display: block;
+    margin-bottom: 10px;
+    padding:5px 10px;
+    min-width: 150px;
+    margin-left: 102px;
+    margin-right: auto;
+}
+input[type="number"]
+{
+    -webkit-appearance: textfield !important;
+    margin: 0;
+    -moz-appearance:textfield !important;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    margin-left: 75px;
+    border-radius: 25px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(60, 39, 134);
+    color: #07a3be;
+    cursor:pointer;
+    
+}
+
+
+.ticket{
+    display: grid;
+    justify-items: center;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+#articulo1{
+    margin-right: 4px;
+}
+#precio1{
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 767px){
+}
