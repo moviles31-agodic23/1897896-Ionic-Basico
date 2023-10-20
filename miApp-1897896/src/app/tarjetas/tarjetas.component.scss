@@ -1,0 +1,33 @@
+ion-card{
+    background-color: white;
+    box-shadow: none;
+  }
+  ion-card-title{
+    color: plum;
+  }
+  .tituloTarjetas{
+    padding-top: 10px;
+  }
+  .fechaContenedor{
+    float: left;
+  }
+  #fecha{
+    color: plum;
+  }
+  .CVVcontenedor{
+    float: right;
+  }
+.nombre{
+    float: left;
+}
+img{
+    width: 20px;
+    float: right;
+}
+ion-card-content{
+    display:grid;
+
+}
+
+
+  

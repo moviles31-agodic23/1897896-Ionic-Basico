@@ -7,16 +7,6 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {
-  }
-
-  tittle: string='Mi nueva pagina';
-
-  hazmeClick():void{
-    alert("hiciste clic!");
-  }
-
-  imgUrl: string='https://somoskudasai.com/wp-content/uploads/2022/11/portada_hatsune-miku-35.jpg';
-
-  nombreAlumno: string='';
+  constructor() {}
+  
 }

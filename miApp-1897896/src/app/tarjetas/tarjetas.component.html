@@ -1,0 +1,24 @@
+<ion-title class="tituloTarjetas">My Digital Wallet</ion-title>
+  <ion-card *ngFor="let tarjeta of tarjetas">
+  <ion-card-header>
+    <ion-card-title><strong>{{tarjeta.numero}}</strong></ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+      <div>
+        <div class="fechaContenedor">
+          Valid Thru <span id="fecha">{{tarjeta.vigenciaInicio}}/{{tarjeta.vigenciaFin}}</span>
+        </div>
+        <div class="CVVcontenedor">
+          CVV: <span id="CVV">***</span> <!--{{tarjeta.CVV}}-->
+        </div> 
+      </div>
+    <div>
+      <div class="nombre">
+        {{tarjeta.nombre}}
+      </div>
+      <div class="url">
+        <img [src]="imgUrl">
+      </div>
+    </div>
+  </ion-card-content>
+</ion-card>

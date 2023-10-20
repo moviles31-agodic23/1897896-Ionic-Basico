@@ -6,6 +6,12 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  background-color: white;
+  color: #8c8c8c;
+  width: 15%;
+  height: 550px;
+  margin: auto;
+  border-radius: 20px;
 }
 
 #container strong {
@@ -24,4 +30,24 @@
 
 #container a {
   text-decoration: none;
+}
+
+@media screen and (max-width:767px){
+  #container{
+    width: 100%;
+  }
+}
+@media screen and (max-width:1024px) and (min-width:768px){
+  #container{
+    width: 50%;
+  }
+}
+#agregarTarjetas{
+  background-color: plum;
+  float: right;
+  padding: 5px;
+  border-radius: 100%;
+}
+ion-button{
+  --box-shadow:none;
 }
