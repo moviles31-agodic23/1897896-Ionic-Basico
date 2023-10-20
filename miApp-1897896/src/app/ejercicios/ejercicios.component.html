@@ -1,2 +1,3 @@
-<p *ngIf="verdadero">Si ves este mensaje,<strong>Verdadero</strong> es <strong>True</strong></p>
-<p *ngIf="!verdadero">Si ves este mensaje,<strong>Verdadero</strong> es <strong>False</strong></p>
+<p [ngClass]="{'rojo':verdadero,'azul':verdadero == false}">Si <strong>verdadero</strong> es verdadero,
+  este texto sera <strong>rojo</strong>,
+pero si es falso, entonces sera <strong>azul.</strong></p>
