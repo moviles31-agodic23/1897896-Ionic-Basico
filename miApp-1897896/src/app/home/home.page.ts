@@ -8,30 +8,15 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {
-    console.log("AppComponent: Constructor");
   }
-  ngOnChange(){
-    console.log("AppComponent: ngOnChange");
+
+  tittle: string='Mi nueva pagina';
+
+  hazmeClick():void{
+    alert("hiciste clic!");
   }
-  ngOnInit(){
-    console.log("AppComponent: ngOnInit");
-  }
-  ngDoCheck(){
-    console.log("AppComponent: ngDoCheck");
-  }
-  ngAfterContentInit(){
-    console.log("AppComponent: ngAfterCotentnInit");
-  }
-  ngAfterContentChecked(){
-    console.log("AppComponent: ngAfterCotentnChecked");
-  }
-  ngAfterViewInit(){
-    console.log("AppComponent: ngAfterViewInit");
-  }
-  ngAfterViewChecked(){
-    console.log("AppComponent: ngAfterViewChecked");
-  }
-  ngOnDestroy(){
-    console.log("AppComponent: ngOnDestroy");
-  }
+
+  imgUrl: string='https://somoskudasai.com/wp-content/uploads/2022/11/portada_hatsune-miku-35.jpg';
+
+  nombreAlumno: string='';
 }

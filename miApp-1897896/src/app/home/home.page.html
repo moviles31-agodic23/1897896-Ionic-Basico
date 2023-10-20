@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      {{tittle}}
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -14,6 +14,19 @@
   </ion-header>
 
   <div id="container">
-   <app-ejercicios></app-ejercicios>
+    <app-ejercicios></app-ejercicios>
+    <div id="botton">
+      <ion-button (click)="hazmeClick()">Hazme Click</ion-button>
+    </div>
+    <div id="imagen">
+      <img [src]="imgUrl">
+    </div>
+    <div>
+      <p>Inserte el nombre del alumno en el campo:</p>
+      <ion-input [(ngModel)]="nombreAlumno"></ion-input>
+
+      <ion-label>El alumno se llama: <strong>{{nombreAlumno}}</strong></ion-label>
+    </div>
   </div>
+  
 </ion-content>
